@@ -6,11 +6,11 @@ import type { ThemeState } from '../types/theme.types';
 const getCurrentThemeFromDOM = (): ThemeState => {
   const theme: ThemeState = {};
 
-  THEME_VARIABLES.forEach((name) => {
-    theme[name] = getComputedStyle(document.documentElement)
-      .getPropertyValue(name)
-      .trim();
-  });
+  THEME_VARIABLES.forEach((variable) => {
+  theme[variable.name] = getComputedStyle(document.documentElement)
+    .getPropertyValue(variable.name)
+    .trim();
+});
 
   return theme;
 };
