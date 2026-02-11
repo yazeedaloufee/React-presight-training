@@ -1,0 +1,68 @@
+:root {
+  /* ===============================
+     Brand Colors
+     =============================== */
+  --nmo-primary: #2563eb;
+  --nmo-primary-hover: #1d4ed8;
+  --nmo-primary-active: #1e40af;
+
+  --nmo-secondary: #64748b;
+  --nmo-secondary-hover: #475569;
+
+  /* ===============================
+     Semantic Colors
+     =============================== */
+  --nmo-success: #16a34a;
+  --nmo-warning: #f59e0b;
+  --nmo-error: #dc2626;
+  --nmo-info: #0ea5e9;
+
+  /* ===============================
+     Neutrals
+     =============================== */
+  --nmo-bg: #ffffff;
+  --nmo-bg-muted: #f8fafc;
+
+  --nmo-text-primary: #0f172a;
+  --nmo-text-secondary: #475569;
+  --nmo-text-muted: #94a3b8;
+
+  --nmo-border: #e2e8f0;
+  --nmo-border-focus: #2563eb;
+
+  /* ===============================
+     Shadows
+     =============================== */
+  --nmo-shadow-sm: 0 1px 2px rgb(0 0 0 / 0.05);
+  --nmo-shadow-md: 0 4px 6px rgb(0 0 0 / 0.1);
+  --nmo-shadow-lg: 0 10px 15px rgb(0 0 0 / 0.15);
+
+  /* ===============================
+     Spacing
+     =============================== */
+  --nmo-space-xs: 4px;
+  --nmo-space-sm: 8px;
+  --nmo-space-md: 16px;
+  --nmo-space-lg: 24px;
+  --nmo-space-xl: 32px;
+
+  /* ===============================
+     Radius
+     =============================== */
+  --nmo-radius-sm: 4px;
+  --nmo-radius-md: 8px;
+  --nmo-radius-lg: 12px;
+
+  /* ===============================
+     Typography
+     =============================== */
+  --nmo-font-family: 'Inter', system-ui, sans-serif;
+
+  --nmo-font-sm: 0.875rem;
+  --nmo-font-md: 1rem;
+  --nmo-font-lg: 1.125rem;
+
+  --nmo-font-weight-regular: 400;
+  --nmo-font-weight-medium: 500;
+  --nmo-font-weight-bold: 600;
+}

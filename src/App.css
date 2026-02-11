@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-brand {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-brand h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Component specific styles */
+.home, .quiz, .results {
+  padding: 20px;
+}
+
+.home h1, .quiz h1, .results h1 {
+  color: #282c34;
+  margin-bottom: 20px;
+}
+
+.home button, .quiz button, .results button {
+  background-color: #61dafb;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+.home button:hover, .quiz button:hover, .results button:hover {
+  background-color: #21a1f1;
+}
+
+.question {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.quiz-controls {
+  margin-top: 20px;
+}
+
+.score {
+  margin: 20px 0;
+}
+
+.actions {
+  margin-top: 20px;
+}
