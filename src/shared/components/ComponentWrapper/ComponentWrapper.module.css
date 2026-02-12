@@ -1,0 +1,7 @@
+.component-wrapper{
+    background-color:var(--nmo-component-background);
+    color:var(--nmo-text-color-primary);
+}
+.title{
+    margin-bottom: 1rem;
+}
